@@ -1,10 +1,9 @@
-# Incident Diagnosing and Reporting System based on Retrieval Augmented Large Language Model 
+# Incident Diagnosing and Reporting System based on Retrieval Augmented Large Language Model
+Peng Yuan, Lu-An Tang, Yanchi Liu, Moto Sato, Haifeng Chen
 
-Explainable Anomaly Detection System for Categorical Sensor Data in Internet of Things
-Peng Yuan, Lu-An Tang, Haifeng Chen, Moto Sato, and Kevin Woodward
 
-Abstract
-Internet-of-thing (IoT) applications deploy massive number of sensors to monitor the system and environment. Anomaly detection on streaming sensor data is an important task for IoT maintenance and operation. However, there are two major problems for anomaly detection in real IoT applications: (1) many sensors report categorical values rather than numerical readings; (2) end users require more knowledge and explanations to understand the anomalies and take actions. Unfor-tunately, most existing works cannot satisfy such requirements. To bridge the gap, we design and develop an eXplainable Anomaly Detection System (XADS) for categorical sensor data. XADS trains models from historical normal data and conducts online monitoring. XADS detects the anomalies in an explainable way: the system will not only report the anomalies' time period, type, value details, but also provide explanations on why they are abnormal, and what should the normal data like. Such information will significantly help the end user making decision and taking actions. XADS requires very limit parameter setting, yields high accu-racy on detection results and comes with user-friendly interface, making it an ef-ficient and effective tool for monitoring a wide variety of IoT applications
+# Abstract
+Internet-of-Things (IoTs) are widely used in many domains such as smart city, transportation, healthcare and environment monitoring. One key task of IoT maintenance is to analyze the abnormal sensor records and produce incident report. Traditionally, domain experts engage in such labor intensive tasks. Recent advancements in Large Language Models (LLMs) have sparked interests in developing AI based systems to automate these processes. However, two critical problems hinder the effective application of LLMs in IoTs: (1) LLMs lack the background information of deployed IoTs; and (2) the incidents are complex events involving multiple sensors and components. LLMs need to understand their relationships for accurate diagnosis. In this study, we design and develop a Retrieval Augmented language model based Incident Diagnosing and Reporting system (RAIDR) for IoT applications. RAIDR retrieves related system documents based on the incident features and leverages LLMs to analyze detected anomalies, identify their root causes, and automatically generate the incident reports. The automated incident reporting process streamlines user’s decision making for system maintenance and troubleshooting. 
 
-Link of Demo Video:
+# Link of Demo Video:
 https://github.com/pengyuan0106/Demo-of-eXplainable-Anomaly-Detection-System-XADS-/edit/main/
