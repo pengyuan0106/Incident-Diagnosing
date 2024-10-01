@@ -1,5 +1,5 @@
 # Incident Diagnosing and Reporting System based on Retrieval Augmented Large Language Model
-Peng Yuan, Lu-An Tang, Yanchi Liu, Moto Sato, Haifeng Chen
+Peng Yuan, Lu-An Tang, Yanchi Liu, Kobayashi Yuji, Moto Sato, Haifeng Chen
 
 
 # Abstract
